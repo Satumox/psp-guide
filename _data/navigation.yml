@@ -1,0 +1,7 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Checking for CFW"
+    url: /checking-for-cfw/
+  - title: "FAQ"
+    url: /faq/
