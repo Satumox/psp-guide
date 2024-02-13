@@ -5,12 +5,18 @@ toc: true
 toc_sticky: true
 ---
 This page explains basic computer terminology and PSP-specific information that will be useful to you in case that you have no prior experience in modding consoles.
-If you already modded a PSP console before, you might want to skip this page and go to the [Get Started](get-started) page.
+If you already modded a PSP console before, you might want to skip this page and go to the [Get Started](/get-started) page.
 
-## Requiried Prerequisite
+{: .notice--warning}
+<details>
+<summary>Potential risks (Disclaimer)</summary>
+If you follow these instructions to modify your console, you run the risk of damaging your console.
+While the risk is very low, especially if the instructions are followed correctly step by step, we accept no liability for any damage that may occur during the process. Please don't skip any steps and ask for help if instructions are unclear or if you encounter issues during the process.
+</details>
+## Requiried Prerequisites
 In order to follow this guide, you will need the following:
 - PSP console
-- Mini-USB (or PSP go Charging cable) cable that you can use to connect your PSP to your Computer or
+- USB Mini-B cable (or PSP go Charging cable) cable that you can use to connect your PSP to your Computer or
 - A computer or adapter capable of reading microSD cards on your Computer or
 - A computer or adapter capable of reading Memory Stick Duo, Memory Stick PRO Duo or Memory Stick Micro (M2) depending on the model of your console.
 
@@ -18,7 +24,7 @@ In order to follow this guide, you will need the following:
 ## Thing you should know about the PSP
 
 ### Compatability
-This guide covers the installation of the ARK-4 CFW for every retail console in the PSP family of consoles (10XX, 20XX 'PSP Sllim', 30XX, 'PSP Slim & Lite/Brite', N10XX 'PSP go', E1004 'PSP Street') regardless of the region [^1] and currently installed firmware version.
+This guide covers the installation of the ARK-4 CFW for every retail console in the PSP family of consoles (10XX, 20XX 'PSP Slim', 30XX, 'PSP Slim & Lite/Brite', N10XX 'PSP go', E1004 'PSP Street') regardless of the region [^1] and currently installed firmware version.
 
 [^1]: The region is denoted by the 'XX' in the model number.
 
@@ -66,24 +72,27 @@ While microSD to Memory Stick PRO Duo Adapters exist for the PSP go, they are no
 In this section we will examine the different options on transfering files to the storage of your PSP.
 Every model of the PSP requires a Memory Stick for storage in order to install custom firmware, except for the PSP go which has 16GB internal storage.
 
-### PSP (10XX, 20XX, 30XX and E1004)
-In order to transfer data to the Memory Stick, either a USB Mini-B cable or a card reader which supports Memory Stick is needed.
-If you're using a microSD to Memory Stick PRO Duo Adapter, you can remove the microSD from the adapter and connect it to your PC through a card reader.
-
-
-### PSP go
+<details>
+    <summary>PSP (10XX, 20XX, 30XX and E1004)</summary>
+    In order to transfer data to the Memory Stick, either a USB Mini-B cable or a card reader which supports Memory Stick is needed.
+    If you're using a microSD to Memory Stick PRO Duo Adapter, you can remove the microSD from the adapter and connect it to your PC through a card reader.
+</details>
+<details>
+<summary>PSP go (N10XX)</summary>
 The PSP go uses a proprietary connector for charging and USB connections and therefore requires a different cable than other models.
 besides the 16GB of internal storage it also possible to use Memory Stick Micro (M2) for additional storage, both can be accessed over a USB connection.
 If you aren't not using the original cable that came with the PSP go, make sure that your cable is able to transmit data. 
 Some cables can only be used for charging but not for data transfer.
+</details>
 
-### USB mode
+### Transfer files through USB mode
 In order to connect your PSP console to your computer, do the following.
-1. insert your USB cable into your PSP console.
-2. insert your USB cable into a USB port on your Computer (If USB Auto Connect is enabled on your console, your PSP should start the USB connection automatically at that point.)
-3. On your PSP, go to Settings.
-4. Launch USB Connection.
-5. The Memory Stick/internal storage should now show up as removable media on your PC.
+1. Power your console on.
+2. insert your USB cable into your PSP console.
+3. insert your USB cable into a USB port on your Computer (If USB Auto Connect is enabled on your console, your PSP should start the USB connection automatically at that point.)
+4. On your PSP, go to Settings.
+5. Launch USB Connection.
+6. The Memory Stick/internal storage should now show up as removable media on your PC.
 
 ## Actions you need to perform on your computer
 

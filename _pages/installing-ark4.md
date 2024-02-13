@@ -44,13 +44,13 @@ In this section of the guide we are going to install either Infinity 2 or cIPL o
 cIPL is known to be slightly faster than Infinity 2, but it is not compatible with every model of the PSP.
 We recommand to install cIPL if your console is supported, otherwise just install Infinity 2, which is compatible with every model.
 
-| Model | cIPL | Infinity 2 |
-|:------|:----:|:----------:|
-| 10XX | ✔ | ✔ |
-| 20XX | ✔ | ✔ |
-| 30XX | (✔)[^2] | ✔ |
-| N10XX | ❌ | ✔ |
-| E1004 | ❌ | ✔ |
+| Model | Model Number | cIPL | Infinity 2 |
+|:------|:------|:----:|:----------:|
+| PSP | 10XX | ✔ | ✔ |
+| PSP Slim| 20XX | ✔ | ✔ |
+| PSP Slim & Lite| 30XX | (✔)[^2] | ✔ |
+| PSP Go| N10XX | ❌ | ✔ |
+| PSP Street| E1004 | ❌ | ✔ |
 
 
 [^2]: Only early 30XX models are supported (3g). If you're unsure about the compatability on your PSP 30XX console, you can simply follow the cIPL installation. The cIPL installer will notify you in case that your model isn't compatible and stop the installation. From that point, you can simply switch to the instructions on installing Infinity 2 instead.
@@ -62,7 +62,7 @@ We recommand to install cIPL if your console is supported, otherwise just instal
 4. On your PSP go to Game.
 5. Select Memory Stick / Internal Storage
 6. Launch ARK cIPL Flasher
-7. 
+7.  **TODO:**
 
 ### Infinity 2
 1. Connect your PSP or storage media to your PC.
